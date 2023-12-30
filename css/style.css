@@ -747,11 +747,6 @@ line-height: normal;
         left: -100%;
         background-color: rgb(46, 49, 59);
         text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        
     }
     #check:checked ~ ul{
         left: 0;
@@ -769,7 +764,8 @@ line-height: normal;
 
     .main{
         background-color: #0b0b0b;
-        width: 100%;
+
+      
         
     }
     .main-col{
@@ -1046,7 +1042,9 @@ line-height: normal;
 
 
 /* section row-all */
-
+.row-all{
+    background-color: #F6F6F6 ;
+}
 .row-col{
     display: grid;
     grid-template-columns: auto ;
